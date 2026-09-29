@@ -34,7 +34,7 @@
     <rect width="470" height="40" rx="12" fill="#FFFFFF" fill-opacity=".05"/>
     <circle cx="22" cy="20" r="6" fill="#FF5F57"/><circle cx="42" cy="20" r="6" fill="#FEBC2E"/><circle cx="62" cy="20" r="6" fill="#28C840"/>
     <text x="235" y="25" text-anchor="middle" style="font:500 13px ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;fill:#7F93AD">~/dmitriy</text>
-    <text x="24" y="84" class="t p l0"><tspan class="pr">$ </tspan>whoami</text><text x="24" y="110" class="t o l1">dmitriy · full-stack developer</text><text x="24" y="136" class="t p l2"><tspan class="pr">$ </tspan>cat focus.txt</text><text x="24" y="162" class="t o l3">web apps, from prototype to production</text><text x="24" y="188" class="t p l4"><tspan class="pr">$ </tspan>cat location.txt</text><text x="24" y="214" class="t o l5">antwerp, belgium</text>
-    <rect x="24" y="227" width="9" height="17" fill="#1C84FF" class="cur"/>
+    <text x="24" y="76" class="t p l0"><tspan class="pr">$ </tspan>whoami</text><text x="24" y="100" class="t o l1">dmitriy · full-stack developer</text><text x="24" y="124" class="t p l2"><tspan class="pr">$ </tspan>cat focus.txt</text><text x="24" y="148" class="t o l3">web apps, from prototype to production</text><text x="24" y="172" class="t p l4"><tspan class="pr">$ </tspan>cat location.txt</text><text x="24" y="196" class="t o l5">antwerp, belgium</text>
+    <text x="24" y="220" class="pr" style="font:700 15px ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">$</text><rect x="40" y="207" width="9" height="17" fill="#1C84FF" class="cur"/>
   </g>
 </svg>
