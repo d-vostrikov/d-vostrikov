@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Dmitriy Vostrikov, Full-Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1A30"/><stop offset="1" stop-color="#183052"/></linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.6"><stop offset="0" stop-color="#1C84FF" stop-opacity=".35"/><stop offset="1" stop-color="#1C84FF" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity=".09"/></pattern>
+    <clipPath id="round"><rect width="1200" height="330" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .hi{font:600 14px ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;fill:#7DB8FF;letter-spacing:3px}
+    .name{font:700 56px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;fill:#FFFFFF}
+    .role{font:500 26px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;fill:#9CCBFF}
+    .loc{font:400 16px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;fill:#B8C7DB}
+    .chip{font:600 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;fill:#DCEBFF}
+    .t{font:400 15px ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;opacity:0;animation:show 9s infinite}
+    .p{fill:#E6EDF3}.o{fill:#8FB8E8}.pr{fill:#1C84FF;font-weight:700}
+    .l0{animation-delay:0.0s}.l1{animation-delay:0.9s}.l2{animation-delay:1.8s}.l3{animation-delay:2.7s}.l4{animation-delay:3.6s}.l5{animation-delay:4.5s}
+    @keyframes show{0%{opacity:0}4%{opacity:1}88%{opacity:1}96%{opacity:0}100%{opacity:0}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="330" fill="url(#bg)"/>
+    <rect width="1200" height="330" fill="url(#dots)"/>
+    <rect width="1200" height="330" fill="url(#glow)"/>
+    <rect y="326" width="1200" height="4" fill="#1C84FF"/>
+  </g>
+  <text x="64" y="92" class="hi">HI, I'M</text>
+  <text x="62" y="152" class="name">Dmitriy Vostrikov</text>
+  <text x="64" y="192" class="role">Full-Stack Developer</text>
+  <text x="64" y="220" class="loc">Antwerp, Belgium</text>
+  <g transform="translate(64,238)"><rect width="120" height="30" rx="15" fill="#1C84FF" fill-opacity=".14" stroke="#1C84FF" stroke-opacity=".55"/><text x="60" y="20" text-anchor="middle" class="chip">TypeScript</text></g><g transform="translate(194,238)"><rect width="74" height="30" rx="15" fill="#1C84FF" fill-opacity=".14" stroke="#1C84FF" stroke-opacity=".55"/><text x="37" y="20" text-anchor="middle" class="chip">React</text></g><g transform="translate(278,238)"><rect width="64.8" height="30" rx="15" fill="#1C84FF" fill-opacity=".14" stroke="#1C84FF" stroke-opacity=".55"/><text x="32.4" y="20" text-anchor="middle" class="chip">Java</text></g><g transform="translate(352.8,238)"><rect width="156.79999999999998" height="30" rx="15" fill="#1C84FF" fill-opacity=".14" stroke="#1C84FF" stroke-opacity=".55"/><text x="78.39999999999999" y="20" text-anchor="middle" class="chip">Agentic coding</text></g>
+  <g transform="translate(676,48)">
+    <rect width="470" height="232" rx="12" fill="#07111F" fill-opacity=".82" stroke="#FFFFFF" stroke-opacity=".12"/>
+    <rect width="470" height="40" rx="12" fill="#FFFFFF" fill-opacity=".05"/>
+    <circle cx="22" cy="20" r="6" fill="#FF5F57"/><circle cx="42" cy="20" r="6" fill="#FEBC2E"/><circle cx="62" cy="20" r="6" fill="#28C840"/>
+    <text x="235" y="25" text-anchor="middle" style="font:500 13px ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;fill:#7F93AD">~/dmitriy</text>
+    <text x="24" y="84" class="t p l0"><tspan class="pr">$ </tspan>whoami</text><text x="24" y="110" class="t o l1">dmitriy · full-stack developer</text><text x="24" y="136" class="t p l2"><tspan class="pr">$ </tspan>cat focus.txt</text><text x="24" y="162" class="t o l3">web apps, from prototype to production</text><text x="24" y="188" class="t p l4"><tspan class="pr">$ </tspan>cat location.txt</text><text x="24" y="214" class="t o l5">antwerp, belgium</text>
+    <rect x="24" y="227" width="9" height="17" fill="#1C84FF" class="cur"/>
+  </g>
+</svg>
